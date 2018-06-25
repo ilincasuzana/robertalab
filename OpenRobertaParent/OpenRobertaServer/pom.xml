@@ -108,6 +108,11 @@
 		</dependency>
 		<dependency>
 			<groupId>de.fhg.iais.openroberta</groupId>
+			<artifactId>RobotTurtlebot</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>de.fhg.iais.openroberta</groupId>
 			<artifactId>RobotVorwerk</artifactId>
 			<scope>test</scope>
 		</dependency>
@@ -164,6 +169,13 @@
 								<artifactItem>
 									<groupId>de.fhg.iais.openroberta</groupId>
 									<artifactId>RobotNXT</artifactId>
+									<version>${project.version}</version>
+									<type>jar</type>
+									<overWrite>true</overWrite>
+								</artifactItem>
+								<artifactItem>
+									<groupId>de.fhg.iais.openroberta</groupId>
+									<artifactId>RobotTurtlebot</artifactId>
 									<version>${project.version}</version>
 									<type>jar</type>
 									<overWrite>true</overWrite>
