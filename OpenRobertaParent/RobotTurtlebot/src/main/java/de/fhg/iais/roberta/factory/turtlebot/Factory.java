@@ -10,7 +10,6 @@ import de.fhg.iais.roberta.factory.IRobotFactory;
 import de.fhg.iais.roberta.inter.mode.action.ILightSensorActionMode;
 import de.fhg.iais.roberta.inter.mode.action.IShowPicture;
 import de.fhg.iais.roberta.inter.mode.sensor.ISensorPort;
-import de.fhg.iais.roberta.mode.action.turtlebot.ShowPicture;
 import de.fhg.iais.roberta.mode.sensor.SensorPort;
 import de.fhg.iais.roberta.syntax.Phrase;
 import de.fhg.iais.roberta.syntax.check.program.RobotCommonCheckVisitor;
@@ -41,7 +40,7 @@ public class Factory extends AbstractRobotFactory {
 
     @Override
     public IShowPicture getShowPicture(String picture) {
-        return IRobotFactory.getModeValue(picture, ShowPicture.class);
+        return null;
     }
 
     @Override
